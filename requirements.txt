@@ -1,0 +1,4 @@
+# Tested with the versions pinned below (Python 3.11+).
+box-sdk-gen>=1.17.0
+Flask>=3.1.0
+python-dotenv>=1.0.0

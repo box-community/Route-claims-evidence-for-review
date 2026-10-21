@@ -172,9 +172,8 @@ review request.
    not the action ID.
 
 During Beta, the start endpoint does not accept fields at runtime, so the
-claim ID is written as metadata first. The Automate endpoints are not yet
-in `box-sdk-gen`; `automate.py` uses `client.make_request` with
-`box-version: 2026.0`.
+claim ID is written as metadata first. `automate.py` calls the Automate
+endpoints with `client.make_request` and `box-version: 2026.0`.
 
 ## Security notes
 
